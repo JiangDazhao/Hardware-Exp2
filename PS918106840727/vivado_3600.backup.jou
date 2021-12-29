@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 28 08:28:21 2021
+# Process ID: 3600
+# Current directory: C:/Users/lenovo/Desktop/PS918106840727
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2892 C:\Users\lenovo\Desktop\PS918106840727\PS918106840727.xpr
+# Log file: C:/Users/lenovo/Desktop/PS918106840727/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/PS918106840727\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+file copy -force C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.runs/impl_1/PS918106840727_wrapper.sysdef C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+
+launch_sdk -workspace C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk -hwspec C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf

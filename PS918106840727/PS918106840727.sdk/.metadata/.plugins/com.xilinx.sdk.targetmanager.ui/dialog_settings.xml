@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="PS918106840727_wrapper_hw_platform_0-device"/>
+	<item value="" key="PS918106840727_wrapper_hw_platform_0-bmmFile"/>
+	<item value="PS918106840727_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="PS918106840727_wrapper.bit" key="PS918106840727_wrapper_hw_platform_0-bitFile"/>
+	<item value="false" key="PS918106840727_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="PS918106840727_wrapper_hw_platform_0-target"/>
+</section>

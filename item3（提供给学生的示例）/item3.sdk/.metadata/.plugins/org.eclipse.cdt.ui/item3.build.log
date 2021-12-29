@@ -1,0 +1,27 @@
+16:22:29 **** Incremental Build of configuration Debug for project item3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:53:11: warning: unused variable 'flag1' [-Wunused-variable]
+  u32 flag,flag1;  //变量flag用于记录SW0~SW7按键按下信息；变量flag1用于记录BTN8、BTN9按键按下信息
+           ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: item3.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "item3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: item3.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size item3.elf  |tee "item3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20516	   1144	  22568	  44228	   acc4	item3.elf
+'Finished building: item3.elf.size'
+' '
+
+16:22:30 Build Finished (took 1s.198ms)
+

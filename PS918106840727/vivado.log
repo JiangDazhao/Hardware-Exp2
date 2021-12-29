@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 29 13:53:48 2021
+# Process ID: 11372
+# Current directory: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10568 C:\Users\86198\Desktop\Hardware Design Exp2\PS918106840727\PS918106840727.xpr
+# Log file: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/vivado.log
+# Journal file: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 965.340 ; gain = 96.094
+update_compile_order -fileset sources_1
+launch_sdk -workspace {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk} -hwspec {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk -hwspec C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 29 13:55:29 2021...

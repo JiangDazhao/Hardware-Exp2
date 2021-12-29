@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 28 08:28:21 2021
+# Process ID: 3600
+# Current directory: C:/Users/lenovo/Desktop/PS918106840727
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2892 C:\Users\lenovo\Desktop\PS918106840727\PS918106840727.xpr
+# Log file: C:/Users/lenovo/Desktop/PS918106840727/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/PS918106840727\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2019/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 680.707 ; gain = 82.293
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Dec 28 08:29:53 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.runs/impl_1/runme.log
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+file copy -force C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.runs/impl_1/PS918106840727_wrapper.sysdef C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+
+launch_sdk -workspace C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk -hwspec C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk -hwspec C:/Users/lenovo/Desktop/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 28 17:02:44 2021...

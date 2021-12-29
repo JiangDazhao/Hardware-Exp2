@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="PS918106840727_wrapper_hw_platform_0-offSet"/>
+	<item value="PS918106840727_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="Auto Detect" key="PS918106840727_wrapper_hw_platform_0-device"/>
+	<item value="" key="PS918106840727_wrapper_hw_platform_0-fsblFile"/>
+	<item value="qspi-x4-single" key="PS918106840727_wrapper_hw_platform_0-flashType"/>
+	<item value="false" key="PS918106840727_wrapper_hw_platform_0-blankCheck"/>
+	<item value="" key="PS918106840727_wrapper_hw_platform_0-imgFile"/>
+	<item value="false" key="PS918106840727_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="Local" key="PS918106840727_wrapper_hw_platform_0-target"/>
+</section>

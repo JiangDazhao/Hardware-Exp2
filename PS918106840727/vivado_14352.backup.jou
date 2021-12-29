@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 29 13:28:51 2021
+# Process ID: 14352
+# Current directory: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11704 C:\Users\86198\Desktop\Hardware Design Exp2\PS918106840727\PS918106840727.xpr
+# Log file: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/vivado.log
+# Journal file: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.xpr}
+launch_sdk -workspace {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk} -hwspec {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.runs/impl_1/PS918106840727_wrapper.sysdef} {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}
+
+launch_sdk -workspace {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk} -hwspec {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}

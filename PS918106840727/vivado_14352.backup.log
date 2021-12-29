@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 29 13:28:51 2021
+# Process ID: 14352
+# Current directory: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11704 C:\Users\86198\Desktop\Hardware Design Exp2\PS918106840727\PS918106840727.xpr
+# Log file: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/vivado.log
+# Journal file: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/lenovo/Desktop/PS918106840727' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 748.668 ; gain = 150.465
+launch_sdk -workspace {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk} -hwspec {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk -hwspec C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec 29 13:30:57 2021] Launched impl_1...
+Run output will be captured here: C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.runs/impl_1/runme.log
+file copy -force {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.runs/impl_1/PS918106840727_wrapper.sysdef} {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}
+
+launch_sdk -workspace {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk} -hwspec {C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf}
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk -hwspec C:/Users/86198/Desktop/Hardware Design Exp2/PS918106840727/PS918106840727.sdk/PS918106840727_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 29 13:44:22 2021...
